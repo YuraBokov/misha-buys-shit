@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <style>
+    .container {
+      height: 200px;
+      position: relative;
+      border: none;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      bottom: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .button {
+      border: none;
+      color: white;
+      height: 400px;
+      width: 400px;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 75px;
+      margin: 4px 2px;
+      box-shadow: 0 9px #999;
+      cursor: pointer;
+    }
+
+    .button:active {
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+
+    /*.button1 {background-color: #4CAF50;} /* Green */
+    .button2 {
+      background-color: #FF0000;
+    }
+
+    /* Blue */
+    .button2 {
+      border-radius: 50%;
+    }
+  </style>
+
+  <body>
+
+    </script>
+
+    <div class="container">
+      <div class="center">
+        What do we do when we sad?
+        <br>
+        <h1><b>Add to cart.</b><h1>
+        <img id="image" src="Misha.jpeg" style="display:none;" />
+        <img id="image2" src="another-misha" style="display:none;" />
+
+
+            <button class="button button2" onclick="picture()">Купить</button>
+
+        <script type="text/javascript">
+
+                function picture(){
+                var pic = "Misha.jpeg";
+                var pic2 = "another-misha.jpeg";
+                document.getElementById('image').src = pic.replace('90x90', '30x30');
+                document.getElementById('image').style.display='block';
+                document.getElementById('image2').src = pic2.replace('90x90', '30x30');
+                document.getElementById('image2').style.display='block';
+
+
+                }
+
+            </script>
+
+      </div>
+    </div>
+
+
+  </body>
+
+</html>
